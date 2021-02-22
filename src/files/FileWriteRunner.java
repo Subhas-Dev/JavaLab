@@ -12,7 +12,7 @@ public class FileWriteRunner {
 		Path pathFileToWrite = Paths.get("./resources/file-write.txt");
 		
 		List<String> list = 
-					List.of("Apple", "Boy", "Cat", "Dog", "Elephant","Lion","Shark");
+					List.of("Apple", "Boy", "Cat", "Dog", "Elephant","Lion","Shark","Banana");
 		
 		Files.write(pathFileToWrite, list);
 	
